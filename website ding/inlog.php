@@ -28,4 +28,15 @@
             </div>
         </div>
 
+        <body>
+    <h1 class="inlog">Inloggen</h1>
+    <form action="mailto:6035536@mborijnland.nl" method="post" enctype="text/plain" class="inlog2">
+        <label for="username/email">Username/E-mail:</label>
+        <input type="text" id="username/email" name="username/email"placeholder="Username/Email" size="25"><br><br>      
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password"placeholder="Password"><br><br>
+        <h2>Druk op de button om in te loggen.</h2>
+        <input type="submit" value="Inloggen" class="inlog-button">
+    </form>    
+
     
