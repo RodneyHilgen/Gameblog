@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-dfZpZjJZKLOpXDQm2aDM0jF7efvH+2T8XzUmikXr6q0jZ9ZlHAAKRII5oD33J4k5" crossorigin="anonymous">
 </head>
 <body>
     <nav>
@@ -30,7 +29,7 @@
 
         <body>
     <h1 class="inlog">Inloggen</h1>
-    <form action="mailto:6035536@mborijnland.nl" method="post" enctype="text/plain" class="inlog2">
+    <form action="mailto:6035536@mborijnland.nl" method="post" enctype="text/plain" class="inlog1">
         <label for="username/email">Username/E-mail:</label>
         <input type="text" id="username/email" name="username/email"placeholder="Username/Email" size="25"><br><br>      
         <label for="password">Password:</label>
