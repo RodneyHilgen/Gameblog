@@ -5,7 +5,7 @@ body {
 }
 body p {
     font-size: 20px;
-    background-image: url("img/BG.png");
+    background-image: url("../img/background1.png");
 }
 
 nav {
@@ -16,7 +16,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    background-image: url("img/NavFoot.png");
+    background-image: url("../img/NavFoot.png");
 }
 
 nav .logo {
@@ -60,7 +60,7 @@ nav .nav-inlog {
     padding-top: 20px;
     box-sizing: border-box;
     padding-bottom: 40vh;
-    background-image: url("img/Sidebar.png");
+    background-image: url("../img/Sidebar.png");
 }
 
 .sidebar-right {
@@ -71,7 +71,7 @@ nav .nav-inlog {
     box-sizing: border-box;
     padding-bottom: 95vh;
     float: right;
-    background-image: url("img/Sidebar.png");
+    background-image: url("../img/Sidebar.png");
 }
 
 .sidebar a {
@@ -102,7 +102,7 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 25px;
-    background-image: url("img/FootFoot.png");
+    background-image: url("../img/FootFoot.png");
 }
 
 .button-left {
@@ -150,7 +150,7 @@ footer {
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 5px;
-    background-image: url("img/BG.png");
+    background-image: url("../img/BG.png");
     }
 
     .parent div{
