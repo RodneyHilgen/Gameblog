@@ -3,13 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/Inlog.css" />
 </head>
 <body>
     <nav>
-        <div class="logo">
-            <img src="https://art.pixilart.com/fb41e74302b2297.png" alt="Logo">
-        </div>
         <div class="search-bar">
             <input type="text" placeholder="Search...">
         </div>
@@ -20,7 +17,7 @@
 
     <div class="iets">
         <div class="div-links">
-            <div class="sidebar">
+            <div class="sidebar2">
                 <a href="#"><p>Home</p></a>
                 <a href="Forum.html"><p>Forums</p></a>
                 <a href="NAV-HTML.html"><p>Games</p></a>
@@ -37,5 +34,9 @@
         <h2>Druk op de button om in te loggen.</h2>
         <input type="submit" value="Inloggen" class="inlog-button">
     </form>    
+
+    <?php
+
+
 
     

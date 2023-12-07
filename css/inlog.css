@@ -1,9 +1,21 @@
-.inlog {
+body {
+  margin: 0;
+  background-image: url("../img/background1.png");
+  background-size: 110%;
+  font-family: "VT323", monospace;
+  font-size: 20px;
+  color: white  ;
+}
+  .inlog {
     margin-left: 660px;
     margin-top: 54px;
     margin-bottom: 60px;
+    color: white;
   }
   .inlog1 {
     margin-left: 535px;
     padding-bottom: 200px;
+    color:white;
   }
+
+  
