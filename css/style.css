@@ -64,8 +64,9 @@ nav .nav-inlog {
   box-sizing: border-box;
   padding-bottom: 40vh;
   background-image: url("../img/Sidebar.png");
+  z-index: 1; /* Stay on top */
 }
-
+/*sidebar links*/
 .sidebar a {
   padding: 10px;
   text-decoration: none;
@@ -100,6 +101,16 @@ nav .nav-inlog {
 
 .div-mid {
   flex: 1 1 auto;
+}
+/*hamburger bar*/
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
 }
 
 /*slider*/
@@ -323,7 +334,7 @@ footer {
           transform: translate(-8px) rotate(-45deg);
       }
 
-      .nav-menu{
+      .sidebar{
         position: fixed;
         left: -100%;
         top: 70px;
