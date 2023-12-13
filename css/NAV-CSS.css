@@ -150,7 +150,7 @@ footer {
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 5px;
-    background-image: url("../img/BG.png");
+    background-image: url("../img/background1.png");
     }
 
     .parent div{
