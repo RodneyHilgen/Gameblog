@@ -9,6 +9,7 @@ body {
 h1 {
   font-size: 50px;
 }
+/* Styling voor de navigatie */
 nav {
   background-color: #333;
   color: #fff;
@@ -51,7 +52,7 @@ nav .nav-inlog {
   cursor: pointer;
   font-size: 16px;
 }
-
+/* Styling voor de sidebar */
 .sidebar {
   height: 100%;
   width: 125px;
@@ -99,7 +100,7 @@ nav .nav-inlog {
 .sidebar a:hover {
   background-color: #555;
 }
-
+/* Styling voor de footer */
 footer {
   background-color: #333;
   color: #fff;
@@ -143,7 +144,7 @@ footer {
 .div-rechts {
   flex: 0 1 5vw;
 }
-
+/* tbh geen idee wat dit is */
 .form {
   background-color: rgb(9, 16, 28);
   overflow: scroll;

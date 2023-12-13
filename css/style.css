@@ -10,6 +10,7 @@ body {
 h1 {
   font-size: 50px;
 }
+/* Styling voor de navigatie */
 nav {
   background-color: #333;
   color: #fff;
@@ -52,7 +53,7 @@ nav .nav-inlog {
   cursor: pointer;
   font-size: 16px;
 }
-
+/* Styling voor de sidebar */
 .sidebar {
   height: 100%;
   width: 125px;
@@ -177,7 +178,7 @@ nav .nav-inlog {
   margin: 10px;
   margin-top: 25px;
 }
-
+/*arietelen*/
 .artiekelen {
   display: flex;
   flex-direction: column;
@@ -291,7 +292,7 @@ footer {
   text-decoration: none;
   border-radius: 4px;
 }
-
+/*social links*/
 .social-links {
   float: right;
 }
@@ -302,7 +303,7 @@ footer {
   width: 30px;
   height: auto;
 }
-
+/*hamburger*/
 .hamburger{
   display: none;
   cursor: pointer;
