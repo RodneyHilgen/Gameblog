@@ -6,6 +6,39 @@ body {
   font-size: 20px;
   color: white  ;
 }
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  background-image: url("../img/NavFoot.png");
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+nav .search-bar {
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav .search-bar input {
+  width: 25%;
+  padding: 8px;
+  box-sizing: border-box;
+}
   .inlog {
     margin-left: 660px;
     margin-top: 54px;
@@ -13,9 +46,106 @@ body {
     color: white;
   }
   .inlog1 {
-    margin-left: 535px;
+    margin-top: 250px;
     padding-bottom: 200px;
     color:white;
   }
 
+  .inlog-button{
+    position: relative;
+    top: 25px;
+    background: #8B0000;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 50px;
+    margin: 20px 0;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .inlog-button:hover{
+    transform: translateY(-5px);
+  }
+
+  .sidebar {
+    height: 100%;
+    width: 125px;
+    background-color: #333;
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding-bottom: 40vh;
+    background-image: url("../img/Sidebar.png");
+  }
+
+  .sidebar-right {
+    height: 200%;
+    width: 7vw;
+    background-color: #333;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding-bottom: 95vh;
+    float: right;
+    background-image: url("../img/Sidebar.png");
+}
   
+  .sidebar a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    width: 50px;
+    height: 50px;
+    border: solid #fff;
+    text-align: center;
+    margin-left: 10px;
+  }
+  
+  .sidebar p {
+    font-size: 14px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #555;
+  }
+
+  .iets {
+    display: flex;
+  }
+  
+  .div-links {
+    flex: 0 1 5vw;
+  }
+
+  .div-rechts {
+    flex: 0 1 5vw;
+  }
+  .div-mid {
+    flex: 1 1 auto;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 25px;
+    background-image: url("../img/FootFoot.png");
+  }
+
+  .social-links {
+    float: right;
+  }
+  
+  .social-links img {
+    display: inline-block;
+    margin: 5px;
+    width: 30px;
+    height: auto;
+  }
