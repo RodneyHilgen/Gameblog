@@ -49,6 +49,9 @@ nav .search-bar input {
     margin-top: 250px;
     padding-bottom: 200px;
     color:white;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
   }
 
   .inlog-button{
