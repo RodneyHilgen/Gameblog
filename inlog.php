@@ -27,7 +27,7 @@
         </div>
 
 
-        
+        <div class="div-mid">
         <h1 class="inlog">Inloggen</h1>
         <form action="mailto:6035536@mborijnland.nl" method="post" enctype="text/plain" class="inlog1">
             <label for="username/email">Username/E-mail:</label>
@@ -36,13 +36,13 @@
             <input type="text" id="password" name="password"placeholder="Password"><br><br>
             <h2>Druk op de button om in te loggen.</h2>
             <input type="submit" value="Inloggen" class="inlog-button">
-            <div class="div-mid">
-        </form>   
-    
-        <div class="div-rechts">
-            <div class="sidebar-right">  </div>  
+        </form>  
+        </div>
+        <div class="div-rechts"></div>
+            <div class="sidebar-right"></div>  
         </div>
     </div>
+
     
 </body>
 
@@ -59,8 +59,8 @@
         /></a>
       </div>
     </footer>
-    <script src="js/script.js"></script>
+    
  
 </html>
 
-    <?php
+
