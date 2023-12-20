@@ -40,7 +40,7 @@ nav .search-bar input {
   box-sizing: border-box;
 }
   .inlog {
-    margin-left: 660px;
+    margin-left: 580px;
     margin-top: 54px;
     margin-bottom: 60px;
     color: white;
@@ -52,6 +52,7 @@ nav .search-bar input {
     width: 50%;
     margin: auto;
     padding: 10px;
+    margin-left: 460px;
   }
 
   .inlog-button{
