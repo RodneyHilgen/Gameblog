@@ -12,16 +12,13 @@ echo "<br>  " .$postMail. " " .$postWw. "";
  
 if($email == $postMail && $wachtwoord == $postWw)
 {
-    echo "<br> correct";
+    header("location:mainpage.html");
 }
  
 else
 {
-    echo "<br> incorrect";
+    header("location:index.php");
 }
-
-header("Location: mainpage.html");
-        exit();
       
 ?>
 
