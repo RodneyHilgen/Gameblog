@@ -20,6 +20,9 @@ else
     echo "<br> incorrect";
 }
 
+header("Location: mainpage.html");
+        exit();
+      
 ?>
 
 </html>
