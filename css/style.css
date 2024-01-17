@@ -7,9 +7,11 @@ body {
   font-family: "VT323", monospace;
   font-size: 20px;
 }
+
 h1 {
   font-size: 50px;
 }
+
 /* Styling voor de navigatie */
 nav {
   background-color: #333;
@@ -53,6 +55,7 @@ nav .nav-inlog {
   cursor: pointer;
   font-size: 16px;
 }
+
 /* Styling voor de sidebar */
 .sidebar {
   height: 100%;
@@ -64,8 +67,10 @@ nav .nav-inlog {
   box-sizing: border-box;
   padding-bottom: 40vh;
   background-image: url("../img/Sidebar.png");
-  z-index: 1; /* Stay on top */
+  z-index: 1;
+  /* Stay on top */
 }
+
 /*sidebar links*/
 .sidebar a {
   padding: 10px;
@@ -102,8 +107,9 @@ nav .nav-inlog {
 .div-mid {
   flex: 1 1 auto;
 }
+
 /*hamburger bar*/
-.bar{
+.bar {
   display: block;
   width: 25px;
   height: 3px;
@@ -189,6 +195,7 @@ nav .nav-inlog {
   margin: 10px;
   margin-top: 25px;
 }
+
 /*arietelen*/
 .artiekelen {
   display: flex;
@@ -196,10 +203,12 @@ nav .nav-inlog {
   overflow: auto;
   max-height: 75vh;
 }
+
 .artiekelen div {
   display: flex;
   margin-top: 10px;
 }
+
 .artiekelen div img {
   width: 200px;
   margin-right: 10px;
@@ -266,6 +275,7 @@ nav .nav-inlog {
 .days div:hover {
   background-color: #f0f0f0;
 }
+
 /*poll*/
 .poll {
   background-color: #fff;
@@ -286,6 +296,7 @@ nav .nav-inlog {
 .options div:hover {
   background-color: #2980b9;
 }
+
 /*footer*/
 footer {
   background-color: #333;
@@ -303,6 +314,7 @@ footer {
   text-decoration: none;
   border-radius: 4px;
 }
+
 /*social links*/
 .social-links {
   float: right;
@@ -314,43 +326,47 @@ footer {
   width: 30px;
   height: auto;
 }
+
 /*hamburger*/
-.hamburger{
+.hamburger {
   display: none;
   cursor: pointer;
 }
 
-@media(max-width:768px) {
-  .hamburger{
-      display: block;
+@media(max-width:7680px) {
+  .hamburger {
+    display: block;
   }
-  .hamburger.active .bar:nth-child(2){
-      opacity: 0;
-      }
-      .hamburger.active .bar:nth-child(1){
-          transform: translateY(8px) rotate(45deg);    
-      }
-      .hamburger.active .bar:nth-child(3){
-          transform: translate(-8px) rotate(-45deg);
-      }
 
-      .sidebar{
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        flex-direction: column;
-        background-color: #333;
-        width: 30%;
-        text-align: center;
-        transition: 0.3s;
-        z-index: 2;
-    }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
 
-    .nav-item{
-        margin: 16px 0;
-    }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
 
-    .nav-menu.active{
-        left: 0;
-    }
-    }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translate(-8px) rotate(-45deg);
+  }
+
+  .sidebar {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column;
+    background-color: #333;
+    width: 30%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 2;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+}
