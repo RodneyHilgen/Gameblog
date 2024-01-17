@@ -232,6 +232,14 @@ nav .nav-inlog {
   padding: 10px;
 }
 
+.highlight {
+  background-color: #ffcc00; /* Yellow background color */
+  color: #333; /* Dark text color */
+  font-weight: bold; /* Bold text */
+  border-radius: 50%; /* Rounded corners */
+}
+
+
 #prevMonth,
 #nextMonth {
   background-color: #2980b9;
@@ -265,6 +273,7 @@ nav .nav-inlog {
 }
 
 .days div {
+  background-color: #343a3e71;
   text-align: center;
   padding: 10px;
   border: 1px solid #ddd;
