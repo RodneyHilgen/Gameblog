@@ -17,7 +17,7 @@
     </nav>
 
 
-    <div class="iets">
+    <div class="main">
         <div class="div-links">
             <div class="sidebar">
                 
@@ -31,7 +31,7 @@
             <label for="email">E-mail:</label>
             <input type="text" id="email" name="email"placeholder="Email" size="25"><br><br>      
             <label for="password">Password:</label>
-            <input type="text" id="password" name="password"placeholder="Password"><br><br>
+            <input type="password" id="password" name="password"placeholder="Password"><br><br>
             <h2>Druk op de button om in te loggen.</h2>
             <input type="submit" value="Inloggen" class="inlog-button">
         </form>  
