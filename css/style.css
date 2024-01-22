@@ -56,6 +56,22 @@ nav .nav-inlog {
   font-size: 16px;
 }
 
+.main p{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  width: 50px;
+  height: 35px;
+  border: solid #fff;
+  text-align: center;
+  margin-left: 10px;
+}
+
 /* Styling voor de sidebar */
 .sidebar {
   height: 100%;
@@ -313,6 +329,8 @@ footer {
   padding: 25px;
   background-image: url("../img/FootFoot.png");
 }
+
+
 
 .button-left {
   display: inline-block;
