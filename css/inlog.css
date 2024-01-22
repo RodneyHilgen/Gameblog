@@ -4,7 +4,7 @@ body {
   background-size: 110%;
   font-family: "VT323", monospace;
   font-size: 20px;
-  color: white  ;
+  color: white;
 }
 
 nav {
@@ -39,118 +39,121 @@ nav .search-bar input {
   padding: 8px;
   box-sizing: border-box;
 }
-  .inlog {
-    margin-left: 580px;
-    margin-top: 100px;
-    margin-bottom: 60px;
-    color: white;
-    justify-content: center;
-  }
-  .inlog1 {
-    margin-top: 250px;
-    padding-bottom: 200px;
-    color:white;
-    width: 50%;
-    margin: auto;
-    padding: 10px;
-    margin-left: 460px;
-  }
 
-  .inlog-button{
-    position: relative;
-    top: 25px;
-    background: #8B0000;
-    color: #fff;
-    font-size: 16px;
-    padding: 12px 50px;
-    margin: 20px 0;
-    border: 0;
-    outline: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.5s;
-  }
-
-  .inlog-button:hover{
-    transform: translateY(-5px);
-  }
-
-  .sidebar {
-    height: 100%;
-    width: 125px;
-    background-color: #333;
-    left: 0;
-    top: 0;
-    padding-top: 20px;
-    box-sizing: border-box;
-    padding-bottom: 40vh;
-    background-image: url("../img/Sidebar.png");
-  }
-
-  .sidebar-right {
-    height: 200%;
-    width: 7vw;
-    background-color: #333;
-    padding-top: 20px;
-    box-sizing: border-box;
-    padding-bottom: 95vh;
-    float: right;
-    background-image: url("../img/Sidebar.png");
+.inlog {
+  margin-left: 580px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  color: white;
+  justify-content: center;
 }
-  
-  .sidebar a {
-    padding: 10px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    display: block;
-    text-align: center;
-    margin-bottom: 50px;
-    transition: 0.3s;
-    width: 50px;
-    height: 50px;
-    border: solid #fff;
-    text-align: center;
-    margin-left: 10px;
-  }
-  
-  .sidebar p {
-    font-size: 14px;
-  }
-  
-  .sidebar a:hover {
-    background-color: #555;
-  }
 
-  .main {
-    display: flex;
-  }
-  
-  .div-links {
-    flex: 0 1 5vw;
-  }
+.inlog1 {
+  margin-top: 250px;
+  padding-bottom: 200px;
+  color: white;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  margin-left: 460px;
+}
 
-  .div-rechts {
-    flex: 0 1 5vw;
-  }
-  .div-mid {
-    flex: 1 1 auto;
-  }
+.inlog-button {
+  position: relative;
+  top: 25px;
+  background: #8B0000;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 50px;
+  margin: 20px 0;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
 
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 25px;
-    background-image: url("../img/FootFoot.png");
-  }
+.inlog-button:hover {
+  transform: translateY(-5px);
+}
 
-  .social-links {
-    float: right;
-  }
-  
-  .social-links img {
-    display: inline-block;
-    margin: 5px;
-    width: 30px;
-    height: auto;
-  }
+.sidebar {
+  height: 100%;
+  width: 125px;
+  background-color: #333;
+  left: 0;
+  top: 0;
+  padding-top: 20px;
+  box-sizing: border-box;
+  padding-bottom: 40vh;
+  background-image: url("../img/Sidebar.png");
+}
+
+.sidebar-right {
+  height: 200%;
+  width: 7vw;
+  background-color: #333;
+  padding-top: 20px;
+  box-sizing: border-box;
+  padding-bottom: 95vh;
+  float: right;
+  background-image: url("../img/Sidebar.png");
+}
+
+.sidebar a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  width: 50px;
+  height: 50px;
+  border: solid #fff;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.sidebar p {
+  font-size: 14px;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+}
+
+.main {
+  display: flex;
+}
+
+.div-links {
+  flex: 0 1 5vw;
+}
+
+.div-rechts {
+  flex: 0 1 5vw;
+}
+
+.div-mid {
+  flex: 1 1 auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 25px;
+  background-image: url("../img/FootFoot.png");
+}
+
+.social-links {
+  float: right;
+}
+
+.social-links img {
+  display: inline-block;
+  margin: 5px;
+  width: 30px;
+  height: auto;
+}

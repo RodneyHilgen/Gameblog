@@ -36,8 +36,8 @@ nav .logo img {
 }
 
 nav .search-bar {
- width: 50vw;
- text-align: center;
+  width: 50vw;
+  text-align: center;
 }
 
 nav .search-bar input {
@@ -249,10 +249,14 @@ nav .nav-inlog {
 }
 
 .highlight {
-  background-color: #ffcc00; /* Yellow background color */
-  color: #333; /* Dark text color */
-  font-weight: bold; /* Bold text */
-  border-radius: 50%; /* Rounded corners */
+  background-color: #ffcc00;
+  /* Yellow background color */
+  color: #333;
+  /* Dark text color */
+  font-weight: bold;
+  /* Bold text */
+  border-radius: 50%;
+  /* Rounded corners */
 }
 
 
