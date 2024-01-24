@@ -16,6 +16,7 @@
         
     </nav>
 
+<!-- Dit is de sidebar -->
 
     <div class="main">
         <div class="div-links">
@@ -24,6 +25,7 @@
             </div>
         </div>
 
+<!-- Dit is de form om te  inloggen -->
 
         <div class="div-mid">
         <h1 class="inlog">Inloggen</h1>
@@ -41,6 +43,7 @@
         </div>
     </div>
 
+    <!-- Dit zijn onze socials -->
     
 </body>
 
